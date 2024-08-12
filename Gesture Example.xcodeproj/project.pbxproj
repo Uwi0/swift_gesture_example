@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		FB2D46C82C6A338000479085 /* Gesture_ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D46C72C6A338000479085 /* Gesture_ExampleApp.swift */; };
-		FB2D46CA2C6A338000479085 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D46C92C6A338000479085 /* ContentView.swift */; };
+		FB2D46CA2C6A338000479085 /* GesturesDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D46C92C6A338000479085 /* GesturesDemo.swift */; };
 		FB2D46CC2C6A338100479085 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB2D46CB2C6A338100479085 /* Assets.xcassets */; };
 		FB2D46CF2C6A338100479085 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB2D46CE2C6A338100479085 /* Preview Assets.xcassets */; };
+		FB2D46DB2C6A401C00479085 /* NiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D46DA2C6A401C00479085 /* NiceTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FB2D46C42C6A338000479085 /* Gesture Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gesture Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB2D46C72C6A338000479085 /* Gesture_ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gesture_ExampleApp.swift; sourceTree = "<group>"; };
-		FB2D46C92C6A338000479085 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FB2D46C92C6A338000479085 /* GesturesDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturesDemo.swift; sourceTree = "<group>"; };
 		FB2D46CB2C6A338100479085 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB2D46CE2C6A338100479085 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FB2D46DA2C6A401C00479085 /* NiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiceTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +53,16 @@
 		FB2D46C62C6A338000479085 /* Gesture Example */ = {
 			isa = PBXGroup;
 			children = (
-				FB2D46C72C6A338000479085 /* Gesture_ExampleApp.swift */,
-				FB2D46C92C6A338000479085 /* ContentView.swift */,
-				FB2D46CB2C6A338100479085 /* Assets.xcassets */,
+				FB2D46D52C6A3B4200479085 /* Magnification Section */,
+				FB2D46D62C6A3B5800479085 /* Drag Section */,
+				FB2D46D72C6A3B7100479085 /* Rotation Section */,
+				FB2D46D82C6A3B8100479085 /* General Gesture Section */,
+				FB2D46D92C6A3BBC00479085 /* Supporting View */,
 				FB2D46CD2C6A338100479085 /* Preview Content */,
+				FB2D46C72C6A338000479085 /* Gesture_ExampleApp.swift */,
+				FB2D46CB2C6A338100479085 /* Assets.xcassets */,
+				FB2D46CE2C6A338100479085 /* Preview Assets.xcassets */,
+				FB2D46C92C6A338000479085 /* GesturesDemo.swift */,
 			);
 			path = "Gesture Example";
 			sourceTree = "<group>";
@@ -62,9 +70,44 @@
 		FB2D46CD2C6A338100479085 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				FB2D46CE2C6A338100479085 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FB2D46D52C6A3B4200479085 /* Magnification Section */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Magnification Section";
+			sourceTree = "<group>";
+		};
+		FB2D46D62C6A3B5800479085 /* Drag Section */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Drag Section";
+			sourceTree = "<group>";
+		};
+		FB2D46D72C6A3B7100479085 /* Rotation Section */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Rotation Section";
+			sourceTree = "<group>";
+		};
+		FB2D46D82C6A3B8100479085 /* General Gesture Section */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "General Gesture Section";
+			sourceTree = "<group>";
+		};
+		FB2D46D92C6A3BBC00479085 /* Supporting View */ = {
+			isa = PBXGroup;
+			children = (
+				FB2D46DA2C6A401C00479085 /* NiceTextView.swift */,
+			);
+			path = "Supporting View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +180,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB2D46CA2C6A338000479085 /* ContentView.swift in Sources */,
+				FB2D46DB2C6A401C00479085 /* NiceTextView.swift in Sources */,
+				FB2D46CA2C6A338000479085 /* GesturesDemo.swift in Sources */,
 				FB2D46C82C6A338000479085 /* Gesture_ExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
