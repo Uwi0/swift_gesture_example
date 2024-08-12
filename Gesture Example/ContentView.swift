@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  Gesture Example
-//
-//  Created by dwi prasetyo on 12/08/24.
-//
-
 import SwiftUI
 
 struct ContentView: View {
@@ -13,7 +6,7 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Hello, uwi0!")
         }
         .padding()
     }
