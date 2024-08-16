@@ -2,13 +2,15 @@ import SwiftUI
 
 struct GesturesDemo: View {
     var body: some View {
-        Form {
-            Text("Magnification !")
-            Text("Drag !")
-            Text("Rotation !")
-            Text("General !")
+        NavigationStack {
+            Form {
+                MagnificationSectionView()
+                Text("Drag !")
+                Text("Rotation !")
+                Text("General !")
+            }.navigationTitle("Gesture")
         }
-        .padding()
+        
     }
 }
 
