@@ -14,7 +14,7 @@ struct RotationSectionView: View {
             NavigationLink(
                 #"Rotation Gesture "Stay still""#,
                 destination: {
-                    //TODO: Add rotation gesture and stay still
+                    RotationGestureView()
                 }
             )
             NavigationLink(
