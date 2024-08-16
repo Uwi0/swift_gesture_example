@@ -8,13 +8,13 @@ struct DragSectionView: View {
             NavigationLink(
                 #"Drag Gesture "Go Back""#,
                 destination: {
-                    //TODO: Drag gesture go back
+                    DragGestureBounceBack()
                 }
             )
             NavigationLink(
                 #"Drag Gesture "Stay still""#,
                 destination: {
-                    //TODO: Drag gesture stay still
+                    DragGestureDemoView()
                 }
             )
             NavigationLink(

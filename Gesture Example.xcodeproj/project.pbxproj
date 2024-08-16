@@ -20,6 +20,7 @@
 		FB37AD592C6F0103003CF57A /* MagnificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37AD582C6F0103003CF57A /* MagnificationView.swift */; };
 		FB37AD5B2C6F03C1003CF57A /* MagnificationStoreStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37AD5A2C6F03C1003CF57A /* MagnificationStoreStateView.swift */; };
 		FB37AD5D2C6F0A4C003CF57A /* DragSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37AD5C2C6F0A4C003CF57A /* DragSectionView.swift */; };
+		FBE2D46B2C6F2206002D2AA0 /* DragGestureDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE2D46A2C6F2206002D2AA0 /* DragGestureDemoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		FB37AD582C6F0103003CF57A /* MagnificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationView.swift; sourceTree = "<group>"; };
 		FB37AD5A2C6F03C1003CF57A /* MagnificationStoreStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationStoreStateView.swift; sourceTree = "<group>"; };
 		FB37AD5C2C6F0A4C003CF57A /* DragSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragSectionView.swift; sourceTree = "<group>"; };
+		FBE2D46A2C6F2206002D2AA0 /* DragGestureDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureDemoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			children = (
 				FB37AD5C2C6F0A4C003CF57A /* DragSectionView.swift */,
 				FB32D5FF2C6F1ED70078618A /* DragGestureBounceBack.swift */,
+				FBE2D46A2C6F2206002D2AA0 /* DragGestureDemoView.swift */,
 			);
 			path = "Drag Section";
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 				FB2D46DF2C6A499100479085 /* Squares.swift in Sources */,
 				FB32D6002C6F1ED70078618A /* DragGestureBounceBack.swift in Sources */,
 				FB2D46C82C6A338000479085 /* Gesture_ExampleApp.swift in Sources */,
+				FBE2D46B2C6F2206002D2AA0 /* DragGestureDemoView.swift in Sources */,
 				FB37AD552C6EEF46003CF57A /* MagnificationSectionView.swift in Sources */,
 				FB37AD5D2C6F0A4C003CF57A /* DragSectionView.swift in Sources */,
 				FB37AD5B2C6F03C1003CF57A /* MagnificationStoreStateView.swift in Sources */,
