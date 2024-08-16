@@ -8,7 +8,7 @@ struct RotationSectionView: View {
             NavigationLink(
                 #"Rotation Gesture "Go Back""#,
                 destination: {
-                    //TODO: Add rotation gesture and go back
+                    RotationGestureBounceBack()
                 }
             )
             NavigationLink(
