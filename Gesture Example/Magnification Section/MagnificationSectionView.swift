@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct MagnificationSectionView: View {
+    @State private var scaleFactor: CGFloat = 1.0
     var body: some View {
         Section (content: {
 
@@ -18,7 +19,7 @@ struct MagnificationSectionView: View {
             )
             NavigationLink(
                 destination: {
-                    Text("Example 3")
+                   MagnificationStoreStateView(scaleFactor: $scaleFactor)
                 },
                 label: {
                     VStack(alignment: .leading, content: {
