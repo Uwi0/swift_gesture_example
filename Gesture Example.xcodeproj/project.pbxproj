@@ -16,6 +16,7 @@
 		FB2D46DF2C6A499100479085 /* Squares.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D46DE2C6A499100479085 /* Squares.swift */; };
 		FB37AD552C6EEF46003CF57A /* MagnificationSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37AD542C6EEF46003CF57A /* MagnificationSectionView.swift */; };
 		FB37AD572C6EF6FA003CF57A /* MagnificationBounceBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37AD562C6EF6FA003CF57A /* MagnificationBounceBackView.swift */; };
+		FB37AD592C6F0103003CF57A /* MagnificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37AD582C6F0103003CF57A /* MagnificationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		FB2D46DE2C6A499100479085 /* Squares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Squares.swift; sourceTree = "<group>"; };
 		FB37AD542C6EEF46003CF57A /* MagnificationSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationSectionView.swift; sourceTree = "<group>"; };
 		FB37AD562C6EF6FA003CF57A /* MagnificationBounceBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationBounceBackView.swift; sourceTree = "<group>"; };
+		FB37AD582C6F0103003CF57A /* MagnificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			children = (
 				FB37AD542C6EEF46003CF57A /* MagnificationSectionView.swift */,
 				FB37AD562C6EF6FA003CF57A /* MagnificationBounceBackView.swift */,
+				FB37AD582C6F0103003CF57A /* MagnificationView.swift */,
 			);
 			path = "Magnification Section";
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				FB2D46DF2C6A499100479085 /* Squares.swift in Sources */,
 				FB2D46C82C6A338000479085 /* Gesture_ExampleApp.swift in Sources */,
 				FB37AD552C6EEF46003CF57A /* MagnificationSectionView.swift in Sources */,
+				FB37AD592C6F0103003CF57A /* MagnificationView.swift in Sources */,
 				FB2D46DD2C6A461D00479085 /* SquareRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

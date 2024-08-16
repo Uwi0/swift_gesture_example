@@ -7,13 +7,13 @@ struct MagnificationSectionView: View {
             NavigationLink(
                 #"Magnification Gesture "Go Back""#,
                 destination: {
-                    Text("Example 2")
+                    MagnificationBounceBackView()
                 }
             )
             NavigationLink(
                 #"Magnification Gesture "Stay still""#,
                 destination: {
-                    Text("Example 1")
+                    MagnificationView()
                 }
             )
             NavigationLink(
