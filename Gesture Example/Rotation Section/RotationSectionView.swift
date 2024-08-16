@@ -1,41 +1,41 @@
 import SwiftUI
 
-struct DragSectionView: View {
+struct RotationSectionView: View {
     @State private var endOffset: CGSize = .zero
     var body: some View {
         Section (content: {
             
             NavigationLink(
-                #"Drag Gesture "Go Back""#,
+                #"Rotation Gesture "Go Back""#,
                 destination: {
-                    DragGestureBounceBack()
+                    //TODO: Add rotation gesture and go back
                 }
             )
             NavigationLink(
-                #"Drag Gesture "Stay still""#,
+                #"Rotation Gesture "Stay still""#,
                 destination: {
-                    DragGestureDemoView()
+                    //TODO: Add rotation gesture and stay still
                 }
             )
             NavigationLink(
                 destination: {
-                    DragGestureStoreStateView(endOffset: $endOffset)
+                    //TODO: add rotation gesture and store state
                 },
                 label: {
                     VStack(alignment: .leading, content: {
-                        Text("Drag Gesture")
+                        Text("Rotation Gesture")
                         Text("Store state").fontWeight(.thin)
                     })
                 }
             )
         }, header: {
-            Text("Drag Gesture Demo")
+            Text("Rotation Gesture Demo")
         })
     }
 }
 
 #Preview {
     Form {
-        DragSectionView()
+        RotationSectionView()
     }
 }
