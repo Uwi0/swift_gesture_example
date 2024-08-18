@@ -45,7 +45,7 @@ struct DragGestureStoreStateView: View {
                 }
                 Spacer()
             }
-            .navigationTitle("Drag and Stay Still")
+            .navigationTitle("Drag and Store state")
             .navigationBarTitleDisplayMode(.inline)
         }
     }

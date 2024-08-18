@@ -1,7 +1,8 @@
 import SwiftUI
 
 struct RotationSectionView: View {
-    @State private var endOffset: CGSize = .zero
+    @State private var rotation: Double = 0.0
+    
     var body: some View {
         Section (content: {
             
@@ -19,7 +20,7 @@ struct RotationSectionView: View {
             )
             NavigationLink(
                 destination: {
-                    //TODO: add rotation gesture and store state
+                    RotationGestureStoreStateView(rotation: $rotation)
                 },
                 label: {
                     VStack(alignment: .leading, content: {

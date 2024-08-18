@@ -26,6 +26,8 @@
 		FBE5BB5C2C6FED3E0027C917 /* GeneralGesturesSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE5BB5B2C6FED3E0027C917 /* GeneralGesturesSectionView.swift */; };
 		FBE5BB5E2C6FF7350027C917 /* RotationGestureBounceBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE5BB5D2C6FF7350027C917 /* RotationGestureBounceBack.swift */; };
 		FBE5BB602C6FF9B20027C917 /* RotationGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE5BB5F2C6FF9B20027C917 /* RotationGestureView.swift */; };
+		FBFE35C42C72962A00154D95 /* RotationGestureStoreStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFE35C32C72962A00154D95 /* RotationGestureStoreStateView.swift */; };
+		FBFE35C62C7297EC00154D95 /* AllGesturesDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFE35C52C7297EC00154D95 /* AllGesturesDemoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,8 @@
 		FBE5BB5B2C6FED3E0027C917 /* GeneralGesturesSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralGesturesSectionView.swift; sourceTree = "<group>"; };
 		FBE5BB5D2C6FF7350027C917 /* RotationGestureBounceBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureBounceBack.swift; sourceTree = "<group>"; };
 		FBE5BB5F2C6FF9B20027C917 /* RotationGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureView.swift; sourceTree = "<group>"; };
+		FBFE35C32C72962A00154D95 /* RotationGestureStoreStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureStoreStateView.swift; sourceTree = "<group>"; };
+		FBFE35C52C7297EC00154D95 /* AllGesturesDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllGesturesDemoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +134,7 @@
 				FBE5BB592C6FEBE50027C917 /* RotationSectionView.swift */,
 				FBE5BB5D2C6FF7350027C917 /* RotationGestureBounceBack.swift */,
 				FBE5BB5F2C6FF9B20027C917 /* RotationGestureView.swift */,
+				FBFE35C32C72962A00154D95 /* RotationGestureStoreStateView.swift */,
 			);
 			path = "Rotation Section";
 			sourceTree = "<group>";
@@ -138,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				FBE5BB5B2C6FED3E0027C917 /* GeneralGesturesSectionView.swift */,
+				FBFE35C52C7297EC00154D95 /* AllGesturesDemoView.swift */,
 			);
 			path = "General Gesture Section";
 			sourceTree = "<group>";
@@ -222,9 +228,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBFE35C42C72962A00154D95 /* RotationGestureStoreStateView.swift in Sources */,
 				FB2D46DB2C6A401C00479085 /* NiceTextView.swift in Sources */,
 				FB37AD572C6EF6FA003CF57A /* MagnificationBounceBackView.swift in Sources */,
 				FB2D46CA2C6A338000479085 /* GesturesDemo.swift in Sources */,
+				FBFE35C62C7297EC00154D95 /* AllGesturesDemoView.swift in Sources */,
 				FB2D46DF2C6A499100479085 /* Squares.swift in Sources */,
 				FBE5BB5A2C6FEBE50027C917 /* RotationSectionView.swift in Sources */,
 				FBE5BB5C2C6FED3E0027C917 /* GeneralGesturesSectionView.swift in Sources */,

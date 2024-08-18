@@ -7,7 +7,7 @@ struct GeneralGesturesSectionView: View {
             NavigationLink(
                 #"General Gesture "Go Back""#,
                 destination: {
-                    //TODO: Add general gsture view
+                    AllGesturesDemoView()
                 }
             )
         }, header: {
